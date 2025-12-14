@@ -1,0 +1,93 @@
+---
+layout: default
+title: Projects
+description: My projects and portfolio
+---
+
+<!-- Projects Section -->
+<section class="projects-page">
+    <div class="container">
+        <h1 class="page-title">My Projects</h1>
+        <p class="page-subtitle">Here you can see the projects I have worked on</p>
+
+        <div class="projects-grid">
+            <!-- Project 1 (Required) -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="{{ '/images/project1.jpg' | relative_url }}" alt="Project 1" onerror="this.src='https://via.placeholder.com/800x600/2563eb/ffffff?text=Project+1'">
+                </div>
+                <div class="project-content">
+                    <h2>Project 1: Personal Portfolio Website</h2>
+                    <p class="project-description">
+                        This is my personal portfolio website created for the SITE 1101 course. 
+                        The website is built using Jekyll, HTML, CSS, and JavaScript. 
+                        It features a responsive design that works well on mobile, tablet, and desktop devices. 
+                        The website is hosted on GitHub Pages.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Jekyll</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">GitHub Pages</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/{{ site.github_username }}/{{ site.repository }}" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="{{ '/' | relative_url }}" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 (Optional - Hour of Code) -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="{{ '/images/project2.jpg' | relative_url }}" alt="Project 2" onerror="this.src='https://via.placeholder.com/800x600/2563eb/ffffff?text=Project+2'">
+                </div>
+                <div class="project-content">
+                    <h2>Project 2: Hour of Code</h2>
+                    <p class="project-description">
+                        I participated in the Hour of Code event and learned the basics of programming. 
+                        This experience helped me understand the fundamentals of coding and sparked my 
+                        interest in programming.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Blockly</span>
+                        <span class="tech-tag">Programming Basics</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Project Example -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="{{ '/images/project3.jpg' | relative_url }}" alt="Project 3" onerror="this.src='https://via.placeholder.com/800x600/2563eb/ffffff?text=Project+3'">
+                </div>
+                <div class="project-content">
+                    <h2>Project 3: [Other Project Name]</h2>
+                    <p class="project-description">
+                        You can add your other projects here. Include a title, description, 
+                        image, and technologies for each project.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Technology 1</span>
+                        <span class="tech-tag">Technology 2</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

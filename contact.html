@@ -1,0 +1,62 @@
+---
+layout: default
+title: Contact
+description: Contact information to reach me
+---
+
+<!-- Contact Section -->
+<section class="contact-page">
+    <div class="container">
+        <h1 class="page-title">Contact</h1>
+        <p class="page-subtitle">If you would like to get in touch with me, you can use the following methods</p>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>{{ site.email }}</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+                            github.com/{{ site.github_username }}
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-code"></i>
+                    <div>
+                        <h3>Codecademy</h3>
+                        <a href="https://www.codecademy.com/profiles/{{ site.codecademy_username }}" target="_blank" rel="noopener noreferrer">
+                            codecademy.com/profiles/{{ site.codecademy_username }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-social">
+                <h2>Follow Me</h2>
+                <div class="social-icons-large">
+                    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.codecademy.com/profiles/{{ site.codecademy_username }}" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fas fa-code"></i>
+                        <span>Codecademy</span>
+                    </a>
+                    <a href="https://github.com/{{ site.github_username }}/{{ site.repository }}" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github-alt"></i>
+                        <span>Website Repository</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

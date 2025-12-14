@@ -1,0 +1,47 @@
+# Site Settings
+title: Who Is Simara?
+description: Personal portfolio website for SITE 1101 - Principles of Information Systems course
+author: "Simara Aliyeva"
+email: saliyeva24095@ada.edu.az
+github_username: "alys27"
+codecademy_username: "alyss27"
+repository: alys27.github.io
+
+# Base URL
+baseurl: "" # user/organization site is served from root of repo
+url: "https://alys27.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - SETUP_GUIDE.md
+  - PROJECT_SUMMARY.md
+  - .gitignore
+
+# Theme settings (if using a theme)
+# theme: minima
+
+# Collections
+collections:
+  projects:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
