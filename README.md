@@ -1,90 +1,91 @@
 # Personal Portfolio Website (Jekyll)
 
-SITE 1101 - İnformasiya Sistemləri Prinsipləri kursu üçün hazırlanmış şəxsi portfolyo veb-saytı.
+A personal portfolio website prepared for the SITE 1101 – Principles of Information Systems course.
 
-**✨ Bu veb-sayt Jekyll ilə hazırlanmışdır (10% bonus üçün)**
+**✨This website was built using Jekyll (for a 10% bonus)**
 
-## 📋 Təsvir
+## 📋 Description
 
-Bu veb-sayt Jekyll static site generator, HTML, CSS və JavaScript istifadə edərək hazırlanmışdır. Veb-sayt responsive dizayn ilə mobil, tablet və desktop cihazlarda yaxşı işləyir.
+This website was developed using the Jekyll static site generator, along with HTML, CSS, and JavaScript. The site features a responsive design, ensuring proper display and usability on mobile, tablet, and desktop devices.
 
-## 🚀 Xüsusiyyətlər
+## 🚀 Features
 
-- ✅ Ana Səhifə (profil foto və mətn)
-- ✅ Haqqımda səhifəsi (background, qualifications, activities)
-- ✅ Layihələr səhifəsi (Project 1 və digər layihələr)
-- ✅ Əlaqə səhifəsi
-- ✅ Navigation bar və Footer
-- ✅ GitHub və Codecademy icon linkləri
-- ✅ Responsive dizayn (mobil və tablet üçün)
-- ✅ Temiz və modulyar kod struktur
-- ✅ **Jekyll static site generator** (10% bonus)
+- ✅ Home Page (profile photo and introduction text)
+- ✅ About Page (background, qualifications, activities)
+- ✅ Projects Page (Project 1 and other projects)
+- ✅ Contact Page
+- ✅ Navigation bar and Footer
+- ✅ GitHub and Codecademy icon links
+- ✅ Responsive design (mobile and tablet support)
+- ✅ Clean and modular code structure
+- ✅ Jekyll static site generator (10% bonus)
 
-## 📁 Struktur
+## 📁 Structure
 
 ```
 alys27.github.io/
-├── _config.yml          # Jekyll konfiqurasiyası
+├── _config.yml          # Jekyll configuration
 ├── _layouts/
-│   └── default.html     # Əsas layout
+│   └── default.html     # Main layout
 ├── _includes/
 │   ├── header.html      # Navigation bar
 │   └── footer.html      # Footer
-├── index.html           # Ana səhifə
-├── about.html           # Haqqımda səhifəsi
-├── projects.html        # Layihələr səhifəsi
-├── contact.html         # Əlaqə səhifəsi
+├── index.html           # Home page
+├── about.html           # About page
+├── projects.html        # Projects page
+├── contact.html         # Contact page
 ├── css/
-│   └── style.css        # Əsas CSS faylı
+│   └── style.css        # Main CSS file
 ├── js/
-│   └── main.js          # JavaScript faylı
-├── images/              # Şəkillər qovluğu
-│   ├── profile.jpg      # Profil şəkli
-│   ├── project1.jpg     # Layihə 1 şəkli
-│   ├── project2.jpg     # Layihə 2 şəkli
-│   └── project3.jpg     # Layihə 3 şəkli
+│   └── main.js          # JavaScript file
+├── images/              # Images folder
+│   ├── profile.jpg      # Profile image
+│   ├── project1.jpg     # Project 1 image
+│   ├── project2.jpg     # Project 2 image
+│   └── project3.jpg     # Project 3 image
 ├── Gemfile              # Ruby dependencies
-└── README.md            # Bu fayl
+└── README.md            # This file
+
 ```
 
-## 🔧 Quraşdırma
+## 🔧 Installation
 
-### Yerli İnkişaf Üçün
+### For Local Development
 
-1. Ruby və Bundler quraşdırın:
+1. Install Ruby və Bundler:
    - Windows: [RubyInstaller](https://rubyinstaller.org/)
    - macOS: `brew install ruby`
    - Linux: `sudo apt-get install ruby-full`
 
-2. Repository-ni klonlayın:
+2. Clone the Repository:
 ```bash
 git clone https://github.com/alys27/alys27.github.io.git
 cd alys27.github.io
 ```
 
-3. Dependencies quraşdırın:
+3. Install Dependencies:
 ```bash
 bundle install
 ```
 
-4. Jekyll server-i başladın:
+4. Start the Jekyll server:
 ```bash
 bundle exec jekyll serve
 ```
 
-5. Brauzerdə açın: `http://localhost:4000`
+5. Open in your browser: `http://localhost:4000`
 
-### GitHub Pages-də Host Etmək
+### Hosting on GitHub Pages
 
-GitHub Pages avtomatik olaraq Jekyll build edir. Sadəcə:
+GitHub Pages automatically builds Jekyll sites. Simply:
 
-1. Repository-ni GitHub-a push edin
-2. Settings > Pages-də Jekyll seçin
-3. Veb-saytınız hazır olacaq!
+1. Push the repository to GitHub
+2. Go to Settings > Pages and select Jekyll
+3. Your website will be alive!
 
-## 📝 Konfiqurasiya
+## 📝 Configuration
 
-Veb-saytı istifadə etmək üçün `_config.yml` faylında məlumatları dəyişdirməlisiniz:
+To use the website, update the information in the `_config.yml` file:
 
 ```yaml
 author: "Simara Aliyeva"
@@ -96,35 +97,35 @@ repository: "site1101-portfolio"
 
 ## 🌐 GitHub Pages
 
-Veb-saytı GitHub Pages-də host etmək üçün:
+To host the website on GitHub Pages:
 
-1. GitHub repository-nizə gedin
-2. Settings > Pages bölməsinə keçin
-3. Source-dan "Deploy from a branch" seçin
-4. Branch: `main` və folder: `/ (root)` seçin
-5. Save düyməsini basın
-6. GitHub Pages avtomatik olaraq Jekyll build edəcək
-7. Bir neçə dəqiqə sonra veb-saytınız `https://alys27.github.io` ünvanında olacaq
+1. Go to your GitHub repository
+2. Navigate to Settings > Pages
+3. Under Source, select Deploy from a branch
+4. Choose branch: `main` and folder `/ (root)`
+5. Click Save
+6. GitHub Pages will automatically build the site using Jekyll
+7. After a few minutes, your website will be available at `https://alys27.github.io`
 
-## 📄 Lisenziya
+## 📄 License
 
-Bu layihə təhsil məqsədi ilə hazırlanmışdır.
+This project was created for educational purposes.
 
-## 👤 Müəllif
+## 👤 Author
 
-[Adınız] - SITE 1101 Tələbəsi
+Simara Aliyeva - SITE 1101 CS Student
 
-## 🔗 Linklər
+## 🔗 Links
 
 - [GitHub Profile](https://github.com/alys27)
 - [Codecademy Profile](https://www.codecademy.com/profiles/alyss27)
 - [Website Repository](https://github.com/alys27/alys27.github.io)
 
-## 🎯 Jekyll Üstünlükləri
+## 🎯 Advantages of Jekyll
 
-- ✅ Modulyar kod struktur (layouts və includes)
-- ✅ Avtomatik site generation
-- ✅ GitHub Pages-də native dəstək
-- ✅ Markdown dəstəyi
+- ✅ Modular code structure (layouts and includes)
+- ✅ Automatic site generation
+- ✅ Native GitHub Pages support
+- ✅ Markdown support
 - ✅ Liquid template engine
-- ✅ Plugin sistemi
+- ✅ Plugin system
