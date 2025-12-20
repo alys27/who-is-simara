@@ -5,11 +5,11 @@ author: "Simara Aliyeva"
 email: saliyeva24095@ada.edu.az
 github_username: "alys27"
 codecademy_username: "alyss27"
-repository: alys27.github.io
+repository: "https://github.com/alys27/who-is-simara"
 
 # Base URL
-baseurl: "" # user/organization site is served from root of repo
-url: "https://alys27.github.io" # the base hostname & protocol for your site
+baseurl: "/who-is-simara"
+url: "https://alys27.github.io"
 
 # Build settings
 markdown: kramdown

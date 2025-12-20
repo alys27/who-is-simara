@@ -59,7 +59,7 @@ alys27.github.io/
 
 2. Clone the Repository:
 ```bash
-git clone https://github.com/alys27/alys27.github.io.git
+git clone https://github.com/alys27/who-is-simara.github.io.git
 cd alys27.github.io
 ```
 
@@ -119,7 +119,7 @@ Simara Aliyeva - SITE 1101 CS Student
 
 - [GitHub Profile](https://github.com/alys27)
 - [Codecademy Profile](https://www.codecademy.com/profiles/alyss27)
-- [Website Repository](https://github.com/alys27/alys27.github.io)
+- [Website Repository](https://github.com/alys27/who-is-simara.github.io)
 
 ## 🎯 Advantages of Jekyll
 
